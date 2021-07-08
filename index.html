@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Shoplane</title>
+  <link rel="stylesheet" href="JS Final Project homepage.css" type="text/css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/35c398e458.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+    integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+    integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous">
+  </script>
+  <style>
+    .carousel-indicators li {
+      height: 12px;
+      width: 12px;
+      border-radius: 6px;
+      background-color: rgba(128, 128, 128, 0.671);
+      margin-right: 10px;
+    }
+
+    .carousel-indicators .active {
+      background-color: rgba(0, 0, 0, 0.623);
+    }
+  </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="JS Final Project homepage.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav id="topbar">
+      <div id="left-menu">
+        <div id="logo"><a href="index.html"><span>Shop</span>lane</a></div>
+        <a href="#clothing">Clothing</a>
+        <a href="#accessory">Accessories</a>
+      </div>
+      <div id="search-wrapper">
+        <i class="fas fa-search"></i>
+        <input id="search-box" type="text" name="search" placeholder="Search for Clothing and Accessories" />
+      </div>
+      <div id="right-menu">
+        <div id="cart-wrapper">
+          <p id="cart-count">0</p>
+          <i class="fas fa-shopping-cart"></i>
+        </div>
+        <img src="20210423_161811874_iOS.jpg" />
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="carouselSection">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="cimg1.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="cimg2.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="cimg3.png" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="cimg4.png" alt="Fourth slide">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="clothing">
+
+    </section>
+
+    <section id="accessory">
+
+    </section>
+
+
+
+
+
+  </main>
+  <img id="edyoda-projects-logo" src="edyodalogo.png" alt="EdYoda Projects Logo" />
+  <footer id="foot">
+    <div>
+      <p class="footer-heading">Online Store</p>
+      <a href="/" class="footer-link">Men Clothing</a>
+      <a href="/" class="footer-link">Women Clothing</a>
+      <a href="/" class="footer-link">Men Accessories</a>
+      <a href="/" class="footer-link">Women Accessories</a>
+    </div>
+    <div>
+      <p class="footer-heading">Helpful Links</p>
+      <a href="/" class="footer-link">Home</a>
+      <a href="/" class="footer-link">About</a>
+      <a href="/" class="footer-link">Contact</a>
+    </div>
+    <div>
+      <p class="footer-heading">Partners</p>
+      <a href="/" class="footer-link">Zara</a>
+      <a href="/" class="footer-link">Pantaloons</a>
+      <a href="/" class="footer-link">Levis</a>
+      <a href="/" class="footer-link">UCB</a>
+      <a href="/" class="footer-link">+ Many More</a>
+    </div>
+    <div>
+      <p class="footer-heading">Address</p>
+      <p href="/" class="footer-link">Building 101</p>
+      <p href="/" class="footer-link">Central Avenue</p>
+      <p href="/" class="footer-link">LA - 902722</p>
+      <p href="/" class="footer-link">United States</p>
+    </div>
+  </footer>
+</body>
+
+</html>

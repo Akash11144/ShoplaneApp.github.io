@@ -1,0 +1,314 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+nav {
+    width: 100%;
+    box-shadow: 0 2px 5px #ccc;
+    background-color: white;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 16px 8%;
+}
+nav > div:nth-of-type(1) {
+    display: inline-flex;
+    justify-content: start;
+    align-items: center;
+}
+nav > div:nth-of-type(1) div {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-right: 16px;
+}
+nav > div:nth-of-type(1) div a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+nav > div:nth-of-type(1) div a span {
+    font-weight: 800;
+}
+nav > div:nth-of-type(1) > a {
+    text-decoration: none;
+    color: black;
+    margin-left: 32px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+nav > div:nth-of-type(2) {
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+}
+nav > div:nth-of-type(2) i {
+    position: absolute;
+    color: #999;
+    font-size: 18px;
+    top: 50%;
+    left: 18px;
+    transform: translateY(-50%);
+    font-weight: 900;
+}
+nav > div:nth-of-type(2) #search {
+    width: 100%;
+    border: 1px solid rgb(245, 242, 242);
+    background-color: rgb(245, 242, 242);
+    box-sizing: border-box;
+    padding: 10px 24px 8px 48px;
+    color: black;
+    outline: none;
+}
+nav > div:nth-of-type(3){
+    display: inline-flex;
+    justify-content: end;
+    align-items: center;
+}
+nav > div:nth-of-type(3) > div {
+    position: relative;
+    margin-right: 32px;
+    cursor: pointer;
+}
+nav > div:nth-of-type(3) > div > p {
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: 600;
+    background-color: #009688;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -12px;
+    right: -12px;
+}
+nav > div:nth-of-type(3) > div > a {
+    text-decoration: none;
+    color: black;
+}
+nav > div:nth-of-type(3) img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+nav > div:nth-of-type(3) > div > a i {
+    cursor: pointer;
+}
+
+main {
+    width: 100%;
+    min-height: 80vh;
+    box-sizing: border-box;
+    margin-top: 100px;
+    padding-bottom: 8%;
+}
+.smallImg {
+    width: 50px;
+    margin: 0 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 4px;
+}
+section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 2% 8%;
+    box-sizing: border-box;
+}
+section > div:nth-of-type(1){
+    width: 40%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    align-self: flex-start;
+}
+section > div:nth-of-type(2){
+    align-self: flex-start;
+    width: 60%;
+    box-sizing: border-box;
+    z-index: 5;
+}
+section > div:nth-of-type(2) > div:nth-of-type(1){
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+h3 {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(27, 25, 25);
+}
+h1 {
+    font-weight: 300;
+    font-size: 44px;
+    letter-spacing: -2px;
+    margin: 0;
+    padding: 0;
+}
+h4 {
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    font-weight: 200;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: rgb(27, 25, 25);
+}
+p {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #86939e;
+}
+h3 span:nth-of-type(2) {
+    color: #009688;
+    font-weight: bold;
+}
+section > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    margin-top: 20px;
+}
+#mainP {
+    width: 100%;
+    box-sizing: border-box;
+}
+body > img {
+    width: 128px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 100;
+}
+.bigger {
+    transform: scale(1.2, 1.2);
+}
+#btn-add-to-cart {
+    background-color: #009688;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    padding: 18px 36px;
+    border-radius: 6px;
+    margin-top: 36px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+    color: white;
+ 
+}
+
+
+
+footer {
+    width: 100%;
+    background-color: #1c1b1e;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 4% 8%;
+}
+footer > div {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+footer >div:nth-of-type(1) {
+    padding-left: 0;
+}
+footer p {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    opacity: 0.9;
+    letter-spacing: 1px;
+}
+footer a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-top: 12px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+footer > div:nth-of-type(4) p {
+    color: white;
+    display: block;
+    margin-top: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 14px;
+    opacity: 0.8;
+    font-weight: 500;
+}
+footer > div:nth-of-type(4) p:nth-of-type(1) {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    opacity: 0.9;
+    letter-spacing: 1px;
+}
+
+@media (max-width:730px){
+    section {
+        flex-direction: column;
+    }
+    section > div:nth-of-type(1){
+        width: 100%;
+    }
+    section > div:nth-of-type(2){
+        width: 100%;
+    }
+
+    body > img {
+        width: 100px;
+        bottom: 20px;
+        right: 20px;
+    }
+        nav > div:nth-of-type(2) {
+            display: none;
+        }
+        nav > div:nth-of-type(1) > a {
+            display: none;
+        }
+        footer {
+            display: flex;
+            flex-direction: column;
+        }
+        footer > div {
+            width: 100%;
+            padding: 0;
+        }
+
+        h1 {
+            font-size: 25px;
+            margin-top: 5px;
+        }
+        #btn-add-to-cart {
+            margin-top: 0px;
+        }
+}
